@@ -1,0 +1,31 @@
+my-music {
+    .right
+    {
+        float:right;
+        margin-top:-37px;
+    }
+
+    .track
+    {
+        font-family:OpenSans;
+    }
+
+    .tracks
+    {
+        font-family:OpenSans;
+        color:#b7c4bc;
+    }
+
+    .box
+    {
+        position: relative;
+    }
+
+    .player
+    {
+        position: absolute;
+        left:33vw;
+        top:5.5vh;
+        color:#ebebeb;
+    }
+}

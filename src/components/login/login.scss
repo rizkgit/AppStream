@@ -1,0 +1,58 @@
+login {
+    .bg-image{
+        background-image: url('../assets/imgs/login.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo
+    {
+        background-image: url('../assets/imgs/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .label{
+        background-color:rgba(255,255,225,0.0)
+    }
+
+    .list
+    {
+        
+        width:50%;
+        position: absolute;
+        right: 100px;
+        margin:auto;
+    }
+
+    .text
+    {
+        color:#ebebeb;
+        text-align: center;
+        margin-top: 35vh;
+    }
+
+    .fb-button
+    {       
+       
+        border-radius:60px;
+        position: absolute;
+        left:100px;
+        margin-top:1vh;
+        height: 8vh;
+        width:70px;
+    }
+
+    .twitter-button
+    {
+        border-radius:60px;
+        position: absolute;
+        right:100px;
+        margin-top:1vh;
+        height: 8vh;
+        width:70px;
+       
+    }
+}
