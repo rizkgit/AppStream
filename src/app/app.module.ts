@@ -16,6 +16,8 @@ import { HomeComponent } from '../components/home/home';
 import { VimeoComponent } from '../components/vimeo/vimeo';
 import { YoutubeComponent } from '../components/youtube/youtube';
 import { SeelAllPopoverComponent } from '../components/seel-all-popover/seel-all-popover';
+import { ParallexHeaderDirective } from '../directives/parallex-header/parallex-header';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { SeelAllPopoverComponent } from '../components/seel-all-popover/seel-all
     MyProfileComponent,
     VimeoComponent,
     YoutubeComponent,
-    SeelAllPopoverComponent
+    SeelAllPopoverComponent,
+    ParallexHeaderDirective
   ],
   imports: [
     BrowserModule,
